@@ -16,7 +16,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/tuusuario/ISCDisplayMenu.git"
+        "url": "https://github.com/iscorporacion/ISCDisplayMenu.git"
     },
     "frameworks": [
         "arduino"
