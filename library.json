@@ -1,0 +1,43 @@
+{
+    "name": "ISCDisplayMenu",
+    "version": "1.0.0",
+    "description": "A customizable menu system for OLED displays with encoder support.",
+    "keywords": [
+        "menu",
+        "OLED",
+        "UI",
+        "encoder"
+    ],
+    "authors": [
+        {
+            "name": "Taylor Mosquera Castro",
+            "email": "thaylor0184@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tuusuario/ISCDisplayMenu.git"
+    },
+    "frameworks": [
+        "arduino"
+    ],
+    "platforms": [
+        "espressif32",
+        "espressif8266"
+    ],
+    "dependencies": [
+        {
+            "name": "Adafruit GFX Library",
+            "version": "^1.11.11"
+        },
+        {
+            "name": "Adafruit SSD1306",
+            "version": "^2.5.13"
+        },
+        {
+            "name": "ESP32Encoder",
+            "version": "^0.11.7"
+        }
+    ],
+    "examples": "examples/*"
+}
